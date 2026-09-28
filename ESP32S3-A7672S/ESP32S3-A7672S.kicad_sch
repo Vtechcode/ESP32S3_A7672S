@@ -1,0 +1,145 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "40f3136f-d7d2-44cd-a5cf-29c323265573")
+	(paper "A4")
+	(title_block
+		(title "ESP32S3 A7672S DEV BOARD")
+		(date "2026-09-20")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 101.6 25.4)
+		(size 40.64 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1988b698-66c2-4184-b1ed-5ed25ac2503f")
+		(property "Sheetname" "ESP32S3"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32S3.kicad_sch"
+			(at 101.6 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3-A7672S"
+				(path "/40f3136f-d7d2-44cd-a5cf-29c323265573"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 25.4)
+		(size 45.72 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3ce887f-3663-4212-b7b5-da712851ad09")
+		(property "Sheetname" "POWER"
+			(at 33.02 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 33.02 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3-A7672S"
+				(path "/40f3136f-d7d2-44cd-a5cf-29c323265573"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 25.4)
+		(size 48.26 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b34d7415-44fc-4076-88f7-1e03ebe75399")
+		(property "Sheetname" "A7672S"
+			(at 160.02 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A7672S.kicad_sch"
+			(at 160.02 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3-A7672S"
+				(path "/40f3136f-d7d2-44cd-a5cf-29c323265573"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
